@@ -6,7 +6,7 @@
 /*   By: bfaisy <bfaisy@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/28 21:34:04 by bfaisy            #+#    #+#             */
-/*   Updated: 2023/12/29 21:43:49 by bfaisy           ###   ########.fr       */
+/*   Updated: 2023/12/30 17:09:38 by bfaisy           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,12 +20,12 @@ class Animal
 {
 protected :
 	std::string type;
-public :
 	Animal();
 	Animal(std::string type1);
 
 	Animal(const Animal& other);
 	Animal& operator=(const Animal& other);
+public :
 	virtual ~Animal();
 
 	std::string getType() const;
